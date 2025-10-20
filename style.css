@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Используем цвет фона из темы Telegram для лучшей интеграции */
+    background-color: var(--tg-theme-bg-color, #ffffff);
+    overflow: hidden;
+    font-family: sans-serif;
+    color: var(--tg-theme-text-color, #000000);
+}
+
+#image-changer {
+    max-width: 90vw;
+    max-height: 90vh;
+    cursor: pointer; /* Указывает, что на элемент можно нажать */
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out; /* Плавный эффект при нажатии */
+}
+
+/* Небольшой эффект "нажатия" при клике на картинку */
+#image-changer:active {
+    transform: scale(0.98);
+}
