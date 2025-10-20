@@ -7,8 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageElement = document.getElementById('image-changer');
 
     // --- ВАЖНО: Замените эти URL на прямые ссылки на ваши изображения ---
-    const firstImageUrl = 'URL_ВАШЕГО_ПЕРВОГО_ИЗОБРАЖЕНИЯ';
-    const secondImageUrl = 'URL_ВАШЕГО_ВТОРОГО_ИЗОБРАЖЕНИЯ';
+    const firstImageUrl = 'https://disk.yandex.ru/i/6S1PVwlgCS7utw';
+';
+    const secondImageUrl = 'https://disk.yandex.ru/d/wWVR7aiTcjU7zA';
 
     // Устанавливаем начальное изображение (на случай, если в HTML оно не указано)
     imageElement.src = firstImageUrl;
@@ -34,3 +35,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     */
 });
+
